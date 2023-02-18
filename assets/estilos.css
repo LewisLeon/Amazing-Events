@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+    background-color:orange;
+    color: white;
+}
+header,nav{
+    background-color: black;
+}
+.div1{
+    display: flex;
+    width: 40vh;
+    justify-content: space-around;
+}
+.mod2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
