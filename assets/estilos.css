@@ -3,15 +3,36 @@
     padding: 0;
     box-sizing: border-box;
     font-family:cursive;
-    background-color:orange;
-    color: white;
+    color: red;
 }
-header,nav{
-    background-color: black;
+header,nav,ul{
+    background: #360033;
+    background: -webkit-linear-gradient(to left, #0b8793, #360033);
+    background: linear-gradient(to left, #0b8793, #360033);
+}
+body{
+    background: #360033;
+    background: -webkit-linear-gradient(to left, #0b8793, #360033);
+    background: linear-gradient(to left, #0b8793, #360033);
+}
+.cards{
+    background: #360033;
+    background: -webkit-linear-gradient(to left, #0b8793, #360033);
+    background: linear-gradient(to left, #0b8793, #360033);
+    border-style:hidden;
+}
+.especial{
+    background: #360033;
+    background: -webkit-linear-gradient(to left, #0b8793, #360033);
+    background: linear-gradient(to left, #0b8793, #360033);
+    border-style:hidden;
+}
+.C9{
+    color: red;
 }
 .div1{
     display: flex;
-    width: 40vh;
+    width: 50vh;
     justify-content: space-around;
 }
 .mod2{
@@ -20,4 +41,49 @@ header,nav{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.mod3{
+    width: 24vh;
+    background-color: white;
+    border-collapse: collapse;
+    border-color: white;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+#pp{
+    padding-top: 2rem;
+    justify-content: center;
+}
+.cardS{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.fond{
+    margin: 0 2rem 0 0;
+    align-self: end;
+}
+.fond2{
+    display: flex;
+    justify-content: space-around;
+    width: 20vh;
+}
+.sp{
+    display: flex;
+    justify-content:end ;
+    align-items: end;
+}
+.tf{
+    font-size: 65%;
+    margin: 3rem 1rem 0 1rem;
+}
+.tt{
+    font-size: 130%;
+}
+.s1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
