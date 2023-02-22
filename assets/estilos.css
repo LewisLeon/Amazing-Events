@@ -4,10 +4,6 @@
     box-sizing: border-box;
     font-family:cursive;
     color: red;
-/*     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
 }
 header,nav,ul{
     background: #360033;
@@ -116,13 +112,9 @@ footer{
 .cs{
     margin: 1rem 1.5rem 0 1.5rem;
 }
-.dp{
-}
 .dim{
     display: flex;
     justify-content: center;
-}
-.imd{
 }
 .dt{
     display: flex;
