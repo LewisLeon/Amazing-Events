@@ -112,7 +112,24 @@ footer{
 .in{
     display: flex;
     border-radius: 0 0.5rem 0.5rem 0;
-
+}
+.cs{
+    margin: 1rem 1.5rem 0 1.5rem;
+}
+.dp{
+}
+.dim{
+    display: flex;
+    justify-content: center;
+}
+.imd{
+}
+.dt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 @media (min-width:375px){
     .mg{
@@ -149,8 +166,21 @@ footer{
         justify-content: center;
         align-items: center;
     }
+    .hs{
+        height: auto;
+    }
+    .cs{
+        margin: 2rem 8rem 0 8rem;
+    }
 }
 @media (min-width:1024px){
+    .div2{
+/*         background-color: black; */
+        justify-content:center;
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
     .mg{
         flex-direction: row;
         flex-wrap: wrap;
@@ -158,6 +188,17 @@ footer{
         justify-content: baseline;
     }
     .hs{
-        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        justify-content:end
+    }
+    .cs{
+        margin: 2rem 10rem 0 10rem;
+    }
+}
+@media (min-width:1440pc) {
+    .cs{
+        margin: 2rem 18rem 0 18rem;
+        width: auto;
     }
 }
