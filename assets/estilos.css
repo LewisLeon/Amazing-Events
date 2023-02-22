@@ -184,8 +184,11 @@ footer{
     .mg{
         flex-direction: row;
         flex-wrap: wrap;
-        margin: 0;
+        margin: 4rem 0 0 0;
         justify-content: baseline;
+    }
+    .dim{
+        margin-top: 15vh;
     }
     .hs{
         display: flex;
