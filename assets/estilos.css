@@ -114,13 +114,20 @@ footer{
 }
 .dim{
     display: flex;
-    justify-content: center;
+    margin: 50% 0 50% 0;
+    padding-right: 2rem;
+    align-items: center;
 }
 .dt{
+    margin: 20% 0 50% 0;
+}
+#dtdp{
     display: flex;
-    flex-direction: column;
+    width: 40rem;
+}
+#deta{
+    display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
 }
 @media (min-width:375px){
@@ -140,60 +147,48 @@ footer{
 }
 @media (min-width:768px){
     .div2{
-        display: flex;
-        justify-content: center;;
-        margin: 0 10vh 6vh 6vh;
-/*         background-color: black; */
-        width: 50rem;
-    }
-    .in{
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: stretch;
-        display: flex;
-    }
-    .mg{
-        margin: 6vh 6vh 6vh 10vh;
-        justify-content: center;
-        align-items: center;
-    }
-    .hs{
-        height: auto;
-    }
-    .cs{
-        margin: 2rem 8rem 0 8rem;
-    }
+                justify-content:center;
+                margin: 0;
+                padding: 0;
+                width: auto;
+            }
+            .mg{
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin: 4rem 0 0 0;
+                justify-content: baseline;
+            }
+            .dim{
+                margin-top: 15vh;
+            }
+            .hs{
+                display: flex;
+                flex-direction: column;
+                justify-content:end
+            }
+            .cs{
+                margin: 2rem 10rem 0 10rem;
+            }
 }
-@media (min-width:1024px){
-    .div2{
-/*         background-color: black; */
-        justify-content:center;
-        margin: 0;
-        padding: 0;
-        width: auto;
-    }
-    .mg{
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin: 4rem 0 0 0;
-        justify-content: baseline;
-    }
-    .dim{
-        margin-top: 15vh;
-    }
-    .hs{
-        display: flex;
-        flex-direction: column;
-        justify-content:end
-    }
-    .cs{
-        margin: 2rem 10rem 0 10rem;
-    }
-}
-@media (min-width:1440pc) {
+@media (min-width:1440pc){
     .cs{
         margin: 2rem 18rem 0 18rem;
         width: auto;
+    }
+}
+@media (max-width:425px){
+    .dim{
+        height: min-content;
+        margin: 3rem 0 0 3rem;
+    }
+    .dt{
+        margin: 0 3rem 0 3rem;
+    }
+    #dtdp{
+        flex-direction: column;
+    }
+    #deta{
+        display: flex;
+        justify-content: center;
     }
 }
