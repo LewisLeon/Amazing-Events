@@ -192,3 +192,8 @@ footer{
         justify-content: center;
     }
 }
+.fondoTex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
