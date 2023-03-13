@@ -2,20 +2,18 @@ let PastContent = document.getElementById("main")
 
 let cont = ""
 
-for (let i = 0 ; i < EventPast.name.length ; i++ ){
-
+eventos.EventPast.forEach((evento) => {
     cont += `<div id="1" class="card m-4 cards hs" style="width: 18rem;">
-    <img src=${EventPast.imagen[i]} class="card-img-top p-2" alt="img Cinema">
+    <img src=${evento.image} class="card-img-top p-2" alt="img Cinema">
     <div class="card-body fondoTex">
-        <h5 class="card-title ">${EventPast.name[i]}</h5>
-        <p class="card-text align-content-between">${EventPast.descrip[i]}</p>
+        <h5 class="card-title ">${evento.name}</h5>
+        <p class="card-text align-content-between">${evento.description}</p>
         <div class="cardS align-content-end">
-            <p>Price: ${EventPast.price[i]}$</p>
+            <p>Price: ${evento.price}$</p>
             <a href="./Details.html" class="btn text-danger especial">More details</a>
         </div>
     </div>
     </div>`
-
-}
+})
 
 PastContent.innerHTML = cont
