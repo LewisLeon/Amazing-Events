@@ -8,7 +8,6 @@ let dateCurrent ={
     month: parseInt(aux3),
     day: parseInt(aux4)
 }
-/* console.log(dateCurrent) */
 let aux
 let date
 let eventos = {
@@ -45,3 +44,5 @@ data.events.forEach((dat) => {
     }
 })
 
+/* console.log(eventos.EventPast);
+console.log(eventos.EventUpcoming); */
