@@ -28,7 +28,6 @@ let evento = datos.events.find(info => info._id == id)
             <p class="catd-text">date event: ${evento.date}</p>
             <p class="catd-text">place event: ${evento.place}</p>
             <p class="catd-text">capacity event: ${evento.capacity}</p>
-            <p class="catd-text">assistance event: ${evento.assistance}</p>
             <p class="catd-text">price event: ${evento.price}</p>
         </div>
         </div>
