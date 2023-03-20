@@ -6,7 +6,7 @@ const input = document.getElementById("filtro")
 fetch("https://mindhub-xj03.onrender.com/api/amazing")
 .then((Response)=> Response.json())
 .then((datos)=> {
-    /* console.log(datos) */
+    console.log(datos)
     Cartas(datos)
     filtradoFechas(datos)
     filtroMain(datos)
